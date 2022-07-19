@@ -5,6 +5,7 @@ body {
 
 /* Header Section */
 .head {
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
