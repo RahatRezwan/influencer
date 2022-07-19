@@ -1,11 +1,27 @@
-/* Common Styles */
+/* -----------------------
+      Common Styles 
+------------------------*/
+* {
+    margin: 0;
+    padding: 0;
+}
 body {
     font-family: "Poppins", sans-serif;
 }
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 1200px;
+}
 
-/* Header Section */
+/* ------------------
+    Header Section
+--------------------- */
 .head {
-    margin-top: 50px;
+    margin: 80px 80px;
     display: flex;
     justify-content: center;
 }
@@ -36,4 +52,67 @@ body {
 .menus img {
     width: 26px;
     height: auto;
+}
+
+/* ------------------
+     Banner Section
+---------------------- */
+.banner-sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.banner-intro {
+    width: 50%;
+}
+.banner-intro h1 {
+    margin-bottom: 16px;
+    font-size: 52px;
+    font-weight: 700;
+    line-height: 70px;
+}
+.banner-intro .description {
+    width: 80%;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.banner-intro button {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    padding: 10px 24px;
+    background: #e02c6d;
+    border: none;
+    border-radius: 41px;
+}
+.banner-intro button p {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.banner-intro button .fa-arrow-right {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #ffffff;
+}
+.banner-bg {
+    position: absolute;
+    text-align: center;
+}
+.banner-img {
+    width: 50%;
+    position: relative;
+    text-align: right;
+}
+.banner-img img {
+    width: 440px;
 }
